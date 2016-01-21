@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -22,6 +23,12 @@
                                 <rect key="frame" x="-6" y="0.0" width="606" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="7xr-FZ-feb" secondAttribute="height" multiplier="101:100" id="xAL-ff-1pB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="RYS-Jk-wSX">
+                                <rect key="frame" x="0.0" y="540" width="675" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="jdv-Ra-W4d"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="zbu-gD-AE9" userLabel="Display-BG">
@@ -198,12 +205,15 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7xr-FZ-feb" secondAttribute="bottom" id="4Uq-kC-uvx"/>
                             <constraint firstAttribute="trailing" secondItem="7xr-FZ-feb" secondAttribute="trailing" id="4oA-Z4-WKz"/>
+                            <constraint firstItem="RYS-Jk-wSX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="83v-eU-d3b"/>
                             <constraint firstItem="7xr-FZ-feb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="99Z-k0-6k9"/>
                             <constraint firstItem="zbu-gD-AE9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ClQ-nF-e9I"/>
                             <constraint firstItem="XXu-U8-hHo" firstAttribute="centerX" secondItem="zbu-gD-AE9" secondAttribute="centerX" id="KjF-oA-nWe"/>
                             <constraint firstItem="zbu-gD-AE9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YeZ-Ck-CEw"/>
                             <constraint firstItem="7xr-FZ-feb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z0m-9V-OBt"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="RYS-Jk-wSX" secondAttribute="bottom" constant="-20" id="nr5-8B-e9j"/>
                             <constraint firstItem="XXu-U8-hHo" firstAttribute="centerY" secondItem="zbu-gD-AE9" secondAttribute="centerY" constant="60" id="utL-DV-kmX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RYS-Jk-wSX" secondAttribute="trailing" constant="-20" id="zfa-va-bqR"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -228,6 +238,7 @@
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
+        <image name="ground" width="888" height="72"/>
         <image name="multiply" width="111" height="114"/>
         <image name="space-bg" width="988" height="946"/>
         <image name="subtract" width="111" height="114"/>
