@@ -6,6 +6,11 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Minecraft.ttf">
+            <string>Minecraft</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -200,6 +205,16 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4792" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDQ-hZ-V6g">
+                                <rect key="frame" x="210" y="86" width="200" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Zjz-qE-wLq"/>
+                                    <constraint firstAttribute="width" constant="200" id="nPX-H3-iGe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="36"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -211,7 +226,9 @@
                             <constraint firstItem="XXu-U8-hHo" firstAttribute="centerX" secondItem="zbu-gD-AE9" secondAttribute="centerX" id="KjF-oA-nWe"/>
                             <constraint firstItem="zbu-gD-AE9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YeZ-Ck-CEw"/>
                             <constraint firstItem="7xr-FZ-feb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z0m-9V-OBt"/>
+                            <constraint firstItem="sDQ-hZ-V6g" firstAttribute="top" secondItem="zbu-gD-AE9" secondAttribute="top" constant="46" id="dHp-Sp-FXI"/>
                             <constraint firstAttribute="bottomMargin" secondItem="RYS-Jk-wSX" secondAttribute="bottom" constant="-20" id="nr5-8B-e9j"/>
+                            <constraint firstItem="zbu-gD-AE9" firstAttribute="trailing" secondItem="sDQ-hZ-V6g" secondAttribute="trailing" constant="15" id="nwC-L3-gqR"/>
                             <constraint firstItem="XXu-U8-hHo" firstAttribute="centerY" secondItem="zbu-gD-AE9" secondAttribute="centerY" constant="60" id="utL-DV-kmX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RYS-Jk-wSX" secondAttribute="trailing" constant="-20" id="zfa-va-bqR"/>
                         </constraints>

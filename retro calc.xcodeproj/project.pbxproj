@@ -12,6 +12,7 @@
 		04F130A51C517990001440CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F130A31C517990001440CF /* Main.storyboard */; };
 		04F130A71C517990001440CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F130A61C517990001440CF /* Assets.xcassets */; };
 		04F130AA1C517990001440CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F130A81C517990001440CF /* LaunchScreen.storyboard */; };
+		04F130B21C51A68E001440CF /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04F130B11C51A68E001440CF /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04F130A61C517990001440CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F130A91C517990001440CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F130AB1C517990001440CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F130B11C51A68E001440CF /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		04F1309E1C517990001440CF /* retro calc */ = {
 			isa = PBXGroup;
 			children = (
+				04F130B11C51A68E001440CF /* Minecraft.ttf */,
 				04F1309F1C517990001440CF /* AppDelegate.swift */,
 				04F130A11C517990001440CF /* ViewController.swift */,
 				04F130A31C517990001440CF /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				04F130AA1C517990001440CF /* LaunchScreen.storyboard in Resources */,
 				04F130A71C517990001440CF /* Assets.xcassets in Resources */,
+				04F130B21C51A68E001440CF /* Minecraft.ttf in Resources */,
 				04F130A51C517990001440CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
