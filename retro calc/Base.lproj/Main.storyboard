@@ -278,6 +278,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="RYS-Jk-wSX" secondAttribute="trailing" constant="-20" id="zfa-va-bqR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLbl" destination="sDQ-hZ-V6g" id="wnn-rz-fVa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

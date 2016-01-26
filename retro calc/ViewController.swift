@@ -43,7 +43,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func numberPressed(btn: UIButton!) {
+        //When the UI number is pressed on the calc, it drops it into this function
+        //And we can call it with "btn"
         btnSound.play()
+        
+        runningNumber += "\(btn.tag)"
+        outputLbl.text = runningNumber
     }
 
     @IBAction func onDividePress(sender: AnyObject) {
