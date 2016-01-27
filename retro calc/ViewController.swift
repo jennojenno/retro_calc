@@ -50,6 +50,16 @@ class ViewController: UIViewController {
         runningNumber += "\(btn.tag)"
         outputLbl.text = runningNumber
     }
+    
+    @IBAction func clearBtn(sender: AnyObject) {
+        runningNumber = ""
+        leftVarStr = ""
+        rightVarStr = ""
+        currentOperation = .Empty
+        result = ""
+        outputLbl.text = "0"
+    }
+    
 
     @IBAction func onDividePress(sender: AnyObject) {
         processOperation(Operation.Divide)

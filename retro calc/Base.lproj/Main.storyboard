@@ -68,6 +68,9 @@
                                                     <constraint firstAttribute="height" constant="62" id="LfL-9Y-nXL"/>
                                                 </constraints>
                                                 <state key="normal" image="clear"/>
+                                                <connections>
+                                                    <action selector="clearBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9FS-yt-UlT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
