@@ -251,7 +251,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDQ-hZ-V6g">
-                                <rect key="frame" x="210" y="86" width="200" height="44"/>
+                                <rect key="frame" x="210" y="87" width="200" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Zjz-qE-wLq"/>
                                     <constraint firstAttribute="width" constant="200" id="nPX-H3-iGe"/>
